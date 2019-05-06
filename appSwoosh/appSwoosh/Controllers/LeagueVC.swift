@@ -16,6 +16,10 @@ class LeagueVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onNextTapped(_ sender: Any) {
+        performSegue(withIdentifier: "SkillVCSegue", sender: self)
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -26,5 +30,5 @@ class LeagueVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
