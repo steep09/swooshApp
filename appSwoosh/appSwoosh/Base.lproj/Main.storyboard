@@ -157,6 +157,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="fGe-f2-Nqs" eventType="touchUpInside" id="QEn-f7-Aec"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="S9A-Bo-mUT">
                                 <rect key="frame" x="115.00000000000001" y="63.999999999999993" width="184.33333333333337" height="119.33333333333331"/>
